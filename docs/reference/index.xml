@@ -21,26 +21,6 @@
     
     
     <item>
-      <title>Docs: Distance Sensors</title>
-      <link>http://rosagriculture.org/ros-a/docs/reference/hardware/sensors/distance/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://rosagriculture.org/ros-a/docs/reference/hardware/sensors/distance/</guid>
-      <description>
-        
-        
-        
-
-&lt;h1 id=&#34;ultrasonic&#34;&gt;Ultrasonic&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ebay.com/itm/JSN-SR04T-2-0-DC5V-Ultrasonic-Distance-Measuring-Transducer-Sensor-Waterproof/172267770126?hash=item281bf5910e:g:N-8AAOSwSONcSnew:rk:3:pf:1&amp;amp;frcectupt=true&#34; target=&#34;_blank&#34;&gt;JSN SR04T-2.0 DC5V Ultrasonic Distance Measuring Transducer Sensor Waterproof&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: Software</title>
       <link>http://rosagriculture.org/ros-a/docs/reference/software/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
