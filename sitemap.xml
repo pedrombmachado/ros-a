@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://rosagriculture.org/ros-a/docs/reference/agritech/</loc>
+    <lastmod>2019-03-02T17:42:41-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rosagriculture.org/ros-a/docs/overview/</loc>
     <lastmod>2019-02-19T17:51:05-05:00</lastmod>
   </url>
@@ -13,13 +18,8 @@
   </url>
   
   <url>
-    <loc>http://rosagriculture.org/ros-a/docs/tutorials/end-to-end-ponycopters/</loc>
-    <lastmod>2019-02-19T17:51:05-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://rosagriculture.org/ros-a/docs/tutorials/</loc>
-    <lastmod>2019-02-19T17:51:05-05:00</lastmod>
+    <lastmod>2019-03-02T17:42:41-05:00</lastmod>
   </url>
   
   <url>
@@ -35,6 +35,11 @@
   <url>
     <loc>http://rosagriculture.org/ros-a/docs/reference/</loc>
     <lastmod>2019-02-19T17:51:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rosagriculture.org/ros-a/docs/reference/hardware/robotics/</loc>
+    <lastmod>2019-03-02T17:42:41-05:00</lastmod>
   </url>
   
   <url>
@@ -58,13 +63,18 @@
   </url>
   
   <url>
+    <loc>http://rosagriculture.org/ros-a/docs/reference/software/diagnostics/</loc>
+    <lastmod>2019-03-02T17:42:41-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rosagriculture.org/ros-a/docs/reference/software/navigation/</loc>
     <lastmod>2019-03-02T17:17:37-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://rosagriculture.org/ros-a/docs/reference/hardware/sensors/distance/</loc>
-    <lastmod>2019-03-02T16:08:04-05:00</lastmod>
+    <lastmod>2019-03-02T17:42:41-05:00</lastmod>
   </url>
   
   <url>

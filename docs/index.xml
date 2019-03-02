@@ -21,19 +21,6 @@
     
     
     <item>
-      <title>Docs: Virtual Prototyping</title>
-      <link>http://rosagriculture.org/ros-a/docs/tutorials/end-to-end-ponycopters/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://rosagriculture.org/ros-a/docs/tutorials/end-to-end-ponycopters/</guid>
-      <description>
-        
-        
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: Distance Sensors</title>
       <link>http://rosagriculture.org/ros-a/docs/reference/hardware/sensors/distance/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
@@ -43,6 +30,12 @@
         
         
         
+
+&lt;h1 id=&#34;radar&#34;&gt;Radar&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://salesmanual.deere.com/sales/salesmanual/en_NA/tractors/attachments/electrical_and_lights/waterloo_common_radar_code_9023.html&#34; target=&#34;_blank&#34;&gt;True ground speed radar sensor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h1 id=&#34;ultrasonic&#34;&gt;Ultrasonic&lt;/h1&gt;
 
