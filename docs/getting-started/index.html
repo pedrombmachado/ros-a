@@ -309,7 +309,10 @@
 <li><a href="#ros-lawn-tractor-https-github-com-ros-agriculture-ros-lawn-tractor"><a href="https://github.com/ros-agriculture/ros_lawn_tractor" target="_blank">ros_lawn_tractor</a></a>
 <ul>
 <li><a href="#install">Install</a></li>
-<li><a href="#docker">Docker</a></li>
+<li><a href="#docker">Docker</a>
+<ul>
+<li><a href="#download-start-file">Download Start File</a></li>
+</ul></li>
 <li><a href="#licensing">Licensing</a></li>
 </ul></li>
 </ul>
@@ -355,10 +358,9 @@
 
 <h2 id="install">Install</h2>
 
-<p>If you don&rsquo;t have a Ubuntu computer running ROS.  This script <a href="https://github.com/linorobot/rosme" target="_blank">https://github.com/linorobot/rosme</a> provided by LinoRobot (<a href="https://linorobot.org/" target="_blank">https://linorobot.org/</a>) will install ROS for you.</p>
+<p>If you don&rsquo;t have a Ubuntu computer running ROS. This <a href="https://github.com/linorobot/rosme" target="_blank">script</a> provided by <a href="https://linorobot.org/" target="_blank">LinoRobot</a> will install ROS for you.</p>
 
 <pre>
-
 prompt$ cd catkin_ws/src
 prompt/catkin_ws/src$ git clone https://github.com/ros-agriculture/ros_lawn_tractor.git 
 prompt/catkin_ws/src$ git clone https://github.com/bsb808/geonav_transform.git
@@ -373,24 +375,22 @@ prompt/catkin_ws$ roslaunch lawn_tractor_sim lawn_tractor_sim.launch
 
 <h2 id="docker">Docker</h2>
 
-<p>If you have docker installed skip to Download Start File.<br />
-Install Docker <br />
-Docker install instructions - <a href="https://docs.docker.com/install/" target="_blank">https://docs.docker.com/install/</a> <br /></p>
+<p>If you have docker installed skip to Download Start File. Otherwise, follow the <a href="https://docs.docker.com/install/" target="_blank">Docker installation instructions</a>.</p>
 
-<p>Download Start File
+<h3 id="download-start-file">Download Start File</h3>
+
 <pre>
-prompt$ wget <a href="https://github.com/ros-agriculture/ros_lawn_tractor/blob/master/docker/start.sh" target="_blank">https://github.com/ros-agriculture/ros_lawn_tractor/blob/master/docker/start.sh</a>
+prompt$ wget https://github.com/ros-agriculture/ros_lawn_tractor/blob/master/docker/start.sh
 prompt$ chmod +x start.sh
 prompt$ ./start.sh
 </pre>
-&hellip;.. wait for image to download &hellip;&hellip;
+..... wait for image to download ......
 <pre>
 docker/prompt$ roslaunch lawn_tractor_sim lawn_tractor_sim.launch
-</pre></p>
+</pre>
 
 <p>When rviz starts it doesn&rsquo;t load the rviz config file.  You will need to go to File and load sim config file.
-Sometimes when you press the File tab it just shows black.  You will need to stop rviz and relaunch the sim:
-<a href="https://youtu.be/yF0pPZHdhtI" target="_blank">https://youtu.be/yF0pPZHdhtI</a></p>
+Sometimes when you press the File tab it just shows black.  You will need to stop rviz and relaunch the sim (<a href="https://youtu.be/yF0pPZHdhtI" target="_blank">video</a>)</p>
 
 <h2 id="licensing">Licensing</h2>
 
@@ -401,7 +401,7 @@ Sometimes when you press the File tab it just shows black.  You will need to sto
 <p>THIS IS ALPHA QUALITY SOFTWARE FOR RESEARCH PURPOSES ONLY. THIS IS NOT A PRODUCT. YOU ARE RESPONSIBLE FOR COMPLYING WITH LOCAL LAWS AND REGULATIONS. NO WARRANTY EXPRESSED OR IMPLIED.</p>
 
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified 02.03.2019: <a  href="https://github.com/ros-agriculture/ros-a/commit/e4221cd6550c34f65020382e3b9d9cee65b6bf31">Update _index.md (e4221cd)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified 02.03.2019: <a  href="https://github.com/ros-agriculture/ros-a/commit/3dfe24480640ba3728ccac82132c42664e554246">Update _index.md (3dfe244)</a>
 </div>
 </div>
 
