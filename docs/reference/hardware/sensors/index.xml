@@ -21,6 +21,26 @@
     
     
     <item>
+      <title>Docs: Position Sensors</title>
+      <link>http://rosagriculture.org/ros-a/docs/reference/hardware/sensors/position/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://rosagriculture.org/ros-a/docs/reference/hardware/sensors/position/</guid>
+      <description>
+        
+        
+        
+
+&lt;h1 id=&#34;angle-position-sensors&#34;&gt;Angle position sensors&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eu.mouser.com/new/ams/ams-as5162/&#34; target=&#34;_blank&#34;&gt;ams AS5162 Analog Magnetic Angle Position Sensor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Distance Sensors</title>
       <link>http://rosagriculture.org/ros-a/docs/reference/hardware/sensors/distance/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
