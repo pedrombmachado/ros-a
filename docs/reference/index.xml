@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ROS Agriculture – Reference</title>
+    <link>https://agritechrobotics.gitlab.io/docs/reference/</link>
+    <description>Recent Hugo news from gohugo.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 19 Feb 2019 17:51:05 -0500</lastBuildDate>
+    <image>
+      <url>https://agritechrobotics.gitlab.io/img/hugo.png</url>
+      <title>GoHugo.io</title>
+      <link>https://agritechrobotics.gitlab.io/docs/reference/</link>
+    </image>
+    
+	  <atom:link href="https://agritechrobotics.gitlab.io/docs/reference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Software</title>
+      <link>https://agritechrobotics.gitlab.io/docs/reference/software/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://agritechrobotics.gitlab.io/docs/reference/software/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
