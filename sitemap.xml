@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://rosagriculture.org/ros-a/docs/reference/agritech/</loc>
-    <lastmod>2019-03-02T17:42:41-05:00</lastmod>
+    <lastmod>2019-03-02T17:49:07-05:00</lastmod>
   </url>
   
   <url>
@@ -15,11 +15,6 @@
   <url>
     <loc>http://rosagriculture.org/ros-a/docs/getting-started/</loc>
     <lastmod>2019-03-02T16:23:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://rosagriculture.org/ros-a/docs/tutorials/</loc>
-    <lastmod>2019-03-02T17:42:41-05:00</lastmod>
   </url>
   
   <url>
@@ -39,7 +34,7 @@
   
   <url>
     <loc>http://rosagriculture.org/ros-a/docs/reference/hardware/robotics/</loc>
-    <lastmod>2019-03-02T17:42:41-05:00</lastmod>
+    <lastmod>2019-03-02T17:49:07-05:00</lastmod>
   </url>
   
   <url>
@@ -64,7 +59,7 @@
   
   <url>
     <loc>http://rosagriculture.org/ros-a/docs/reference/software/diagnostics/</loc>
-    <lastmod>2019-03-02T17:42:41-05:00</lastmod>
+    <lastmod>2019-03-02T17:49:07-05:00</lastmod>
   </url>
   
   <url>
@@ -74,12 +69,17 @@
   
   <url>
     <loc>http://rosagriculture.org/ros-a/docs/reference/hardware/sensors/distance/</loc>
-    <lastmod>2019-03-02T17:42:41-05:00</lastmod>
+    <lastmod>2019-03-02T17:49:07-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://rosagriculture.org/ros-a/docs/reference/hardware/sensors/</loc>
     <lastmod>2019-03-02T17:17:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rosagriculture.org/ros-a/docs/tutorials/</loc>
+    <lastmod>2019-03-02T17:49:07-05:00</lastmod>
   </url>
   
   <url>
