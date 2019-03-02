@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ROS Agriculture – Robots in your future ...</title>
-    <link>https://agritechrobotics.gitlab.io/about/</link>
+    <link>http://rosagriculture.org/ros-a/about/</link>
     <description>Recent Hugo news from gohugo.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 19 Feb 2019 17:51:05 -0500</lastBuildDate>
     <image>
-      <url>https://agritechrobotics.gitlab.io/img/hugo.png</url>
+      <url>http://rosagriculture.org/ros-a/img/hugo.png</url>
       <title>GoHugo.io</title>
-      <link>https://agritechrobotics.gitlab.io/about/</link>
+      <link>http://rosagriculture.org/ros-a/about/</link>
     </image>
     
-	  <atom:link href="https://agritechrobotics.gitlab.io/about/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://rosagriculture.org/ros-a/about/index.xml" rel="self" type="application/rss+xml" />
     
     
       

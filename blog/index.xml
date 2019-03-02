@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ROS Agriculture – Docsy Blog</title>
-    <link>https://agritechrobotics.gitlab.io/blog/</link>
+    <link>http://rosagriculture.org/ros-a/blog/</link>
     <description>Recent Hugo news from gohugo.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 19 Feb 2019 17:51:05 -0500</lastBuildDate>
     <image>
-      <url>https://agritechrobotics.gitlab.io/img/hugo.png</url>
+      <url>http://rosagriculture.org/ros-a/img/hugo.png</url>
       <title>GoHugo.io</title>
-      <link>https://agritechrobotics.gitlab.io/blog/</link>
+      <link>http://rosagriculture.org/ros-a/blog/</link>
     </image>
     
-	  <atom:link href="https://agritechrobotics.gitlab.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://rosagriculture.org/ros-a/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -22,10 +22,10 @@
     
     <item>
       <title>Blog: Sim Farm Update</title>
-      <link>https://agritechrobotics.gitlab.io/blog/2019/01/17/sim-farm-update/</link>
+      <link>http://rosagriculture.org/ros-a/blog/2019/01/17/sim-farm-update/</link>
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://agritechrobotics.gitlab.io/blog/2019/01/17/sim-farm-update/</guid>
+      <guid>http://rosagriculture.org/ros-a/blog/2019/01/17/sim-farm-update/</guid>
       <description>
         
         
@@ -45,10 +45,10 @@
     
     <item>
       <title>Blog: First release of lawn tractor software</title>
-      <link>https://agritechrobotics.gitlab.io/blog/2018/11/30/first-release-of-lawn-tractor-software/</link>
+      <link>http://rosagriculture.org/ros-a/blog/2018/11/30/first-release-of-lawn-tractor-software/</link>
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://agritechrobotics.gitlab.io/blog/2018/11/30/first-release-of-lawn-tractor-software/</guid>
+      <guid>http://rosagriculture.org/ros-a/blog/2018/11/30/first-release-of-lawn-tractor-software/</guid>
       <description>
         
         
@@ -68,10 +68,10 @@
     
     <item>
       <title>Blog: ROS-A Focused Initiative for Agriculture</title>
-      <link>https://agritechrobotics.gitlab.io/blog/2018/09/17/ros-a-focused-initiative-for-agriculture/</link>
+      <link>http://rosagriculture.org/ros-a/blog/2018/09/17/ros-a-focused-initiative-for-agriculture/</link>
       <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://agritechrobotics.gitlab.io/blog/2018/09/17/ros-a-focused-initiative-for-agriculture/</guid>
+      <guid>http://rosagriculture.org/ros-a/blog/2018/09/17/ros-a-focused-initiative-for-agriculture/</guid>
       <description>
         
         
