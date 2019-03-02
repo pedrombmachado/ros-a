@@ -27,7 +27,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://rosagriculture.org/ros-a/docs/getting-started/" />
 
-<meta property="og:updated_time" content="2018-07-30T00:00:00&#43;00:00"/><meta property="og:site_name" content="ROS Agriculture" />
+<meta property="og:updated_time" content="2019-03-01T00:00:00&#43;00:00"/><meta property="og:site_name" content="ROS Agriculture" />
 
 <meta itemprop="name" content="ROS Agricuture User Guide">
 <meta itemprop="description" content="This page describes how to use the ROS Agriculture projects.
@@ -304,6 +304,19 @@
 
 
 
+<nav id="TableOfContents">
+<ul>
+<li><a href="#ros-lawn-tractor-https-github-com-ros-agriculture-ros-lawn-tractor"><a href="https://github.com/ros-agriculture/ros_lawn_tractor" target="_blank">ros_lawn_tractor</a></a>
+<ul>
+<li><a href="#install">Install</a></li>
+<li><a href="#docker">Docker</a></li>
+<li><a href="#licensing">Licensing</a></li>
+</ul></li>
+</ul>
+</nav>
+
+
+
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
             <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
@@ -335,8 +348,60 @@
 	<h1>ROS Agricuture User Guide</h1>
 	<div class="lead">This page describes how to use the ROS Agriculture projects.</div>
 	
+
+<h1 id="ros-lawn-tractor-https-github-com-ros-agriculture-ros-lawn-tractor"><a href="https://github.com/ros-agriculture/ros_lawn_tractor" target="_blank">ros_lawn_tractor</a></h1>
+
+<p><a href="https://www.youtube.com/watch?v=-RF8hOKg6WU" target="_blank"><img src="http://img.youtube.com/vi/-RF8hOKg6WU/0.jpg" alt="lawn tractor image" /></a></p>
+
+<h2 id="install">Install</h2>
+
+<p>If you don&rsquo;t have a Ubuntu computer running ROS.  This script <a href="https://github.com/linorobot/rosme" target="_blank">https://github.com/linorobot/rosme</a> provided by LinoRobot (<a href="https://linorobot.org/" target="_blank">https://linorobot.org/</a>) will install ROS for you.</p>
+
+<pre>
+
+prompt$ cd catkin_ws/src
+prompt/catkin_ws/src$ git clone https://github.com/ros-agriculture/ros_lawn_tractor.git 
+prompt/catkin_ws/src$ git clone https://github.com/bsb808/geonav_transform.git
+prompt/catkin_ws/src$ cd ..
+prompt/catkin_ws$ rosdep update
+prompt/catkin_ws$ rosdep install -y --from-paths . --ignore-src --rosdistro ${ROS_DISTRO}
+prompt/catkin_ws$ sudo apt-get install python-catkin-tools
+prompt/catkin_ws$ catkin build
+prompt/catkin_ws$ source devel/setup.bash
+prompt/catkin_ws$ roslaunch lawn_tractor_sim lawn_tractor_sim.launch
+</pre>
+
+<h2 id="docker">Docker</h2>
+
+<p>If you have docker installed skip to Download Start File.<br />
+Install Docker <br />
+Docker install instructions - <a href="https://docs.docker.com/install/" target="_blank">https://docs.docker.com/install/</a> <br /></p>
+
+<p>Download Start File
+<pre>
+prompt$ wget <a href="https://github.com/ros-agriculture/ros_lawn_tractor/blob/master/docker/start.sh" target="_blank">https://github.com/ros-agriculture/ros_lawn_tractor/blob/master/docker/start.sh</a>
+prompt$ chmod +x start.sh
+prompt$ ./start.sh
+</pre>
+&hellip;.. wait for image to download &hellip;&hellip;
+<pre>
+docker/prompt$ roslaunch lawn_tractor_sim lawn_tractor_sim.launch
+</pre></p>
+
+<p>When rviz starts it doesn&rsquo;t load the rviz config file.  You will need to go to File and load sim config file.
+Sometimes when you press the File tab it just shows black.  You will need to stop rviz and relaunch the sim:
+<a href="https://youtu.be/yF0pPZHdhtI" target="_blank">https://youtu.be/yF0pPZHdhtI</a></p>
+
+<h2 id="licensing">Licensing</h2>
+
+<p>ros_lawn_tractor is released under the MIT license.</p>
+
+<p>Any user of this software shall indemnify and hold harmless ROS Agriculture O&Uuml;. and its directors, officers, employees, agents, stockholders, affiliates, subcontractors and customers from and against all allegations, claims, actions, suits, demands, damages, liabilities, obligations, losses, settlements, judgments, costs and expenses (including without limitation attorneys’ fees and costs) which arise out of, relate to or result from any use of this software by user.</p>
+
+<p>THIS IS ALPHA QUALITY SOFTWARE FOR RESEARCH PURPOSES ONLY. THIS IS NOT A PRODUCT. YOU ARE RESPONSIBLE FOR COMPLYING WITH LOCAL LAWS AND REGULATIONS. NO WARRANTY EXPRESSED OR IMPLIED.</p>
+
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified 19.02.2019: <a  href="https://github.com/ros-agriculture/ros-a/commit/f76dd57273cfc0a118e50c49138e916b1936a4a6">ROS Agriculture (f76dd57)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified 02.03.2019: <a  href="https://github.com/ros-agriculture/ros-a/commit/e4221cd6550c34f65020382e3b9d9cee65b6bf31">Update _index.md (e4221cd)</a>
 </div>
 </div>
 
